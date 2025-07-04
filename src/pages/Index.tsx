@@ -9,6 +9,7 @@ import BookingsPage from '../components/BookingsPage';
 import MessagesPage from '../components/MessagesPage';
 import SEOHead from '../components/SEOHead';
 
+
 const Index = () => {
   const [activeTab, setActiveTab] = useState('home');
   const [selectedCategory, setSelectedCategory] = useState('all');
